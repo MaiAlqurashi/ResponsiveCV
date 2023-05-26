@@ -1,0 +1,137 @@
+body {background-color: #ddedea;}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    span{
+        margin-left:50px;
+      margin-right: 50px;
+      background-color:#cae7c1;
+      text-align:center;
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: inline-block;
+      width: 150px;
+      height: 50px;
+      margin-top: -10px;
+      margin-bottom: -10px;
+      font-weight: bold;
+      font-size: medium;
+  }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    span{
+        margin-left:50px;
+      margin-right: 50px;
+      background-color:#cae7c1;
+      text-align:center;
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: inline-block;
+      width: 150px;
+      height: 50px;
+      margin-top: -10px;
+      margin-bottom: -10px;
+      font-weight: bold;
+      font-size: large;
+  }
+}
+
+
+@media only screen and (min-width:992px){
+    span{
+      margin-left:50px;
+    margin-right: 50px;
+    background-color:#cae7c1;
+    text-align:center;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+    
+}
+
+.title {margin-top: 30px;
+    margin-bottom:30px;
+    text-align:center;  
+    background-color:#b4d3b2;
+    text-align:center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;}
+
+
+
+
+
+
+div {
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul {list-style: none;
+   }
+
+
+section {
+    text-align: center;
+}
+
+.headline {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.smallerHL {
+    font-weight: 600;
+}
+
+.content {margin-top: 30px;
+    margin-bottom:30px;
+    text-align:center;  
+    background-color:#cfe1c9;
+    text-align:center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+
+
+a, a:visited {color:black; }
+
+.contact{
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+

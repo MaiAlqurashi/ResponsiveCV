@@ -1,0 +1,68 @@
+
+<html>
+
+    <head>
+      <title> Feedback Form </title>
+      <link rel="stylesheet" href="index.css">
+      <style type = "text/css">
+        em{font-weight:bold;
+            color:black;}
+        p{
+            color:blue;
+        }
+        option{
+            background-color:green;
+        }
+        .special{
+            color:purple;
+        }
+      </style>
+    </head>
+  
+    <body>
+  
+      <p style = "font-size: 20pt; color:deepskyblue;">Please complete this <em>specific</em> form to submit your feedback:</p>
+      
+      <form method = "post">
+          <label> Mr.
+          <input name = "group" type = "radio" value = "Mr"></label>
+  
+          <label> Mrs.
+          <input name = "group" type = "radio" value = "Mrs"></label>
+  
+          <label class = "special"> Mrs.
+          <input name = "group" type = "radio" value = "Mrs"></label>
+  
+          <p><label>Name:
+          <input name = "name" type = "text" size = "25"></label></p>
+  
+          <p><label>Email Address:
+          <input name = "email" type = "text" size = "25"></label></p>
+          
+          <p><label>Response:
+          <select name = "rating">
+              <option selected>This is excellent.</option>
+              <option>This is okay.</option>
+              <option>This is boring.</option>
+          </select>
+          </label>
+          </p>
+  
+          <p><label>Comments:
+          <textarea name = "comments" rows = "4" cols "36"></textarea>
+  
+  
+          <p>
+          <input type = "submit" value = "Send My Feedback">
+          </p>
+    </body>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </html>
